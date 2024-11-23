@@ -1,0 +1,36 @@
+CODE 3:
+Write a Java program to reverse elements in an array list.
+Sample input and Output:
+Red
+Green
+Orange
+White
+Black
+Sample output
+List before reversing :                                                
+[Red, Green, Orange, White, Black]                                     
+List after reversing :                                                 
+[Black, White, Orange, Green, Red] 
+CODE:
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Collections;
+public class Reverse
+{
+public static void main(String args[])
+{
+Scanner A=new Scanner(System.in);
+int n=A.nextInt();
+ArrayList<String> a=new ArrayList<String>();
+for(int i=0;i<n;i++)
+{
+a.add(A.next());
+}
+System.out.println("List before reversing :");
+System.out.println(a);
+Collections.reverse(a);
+System.out.println("List after reversing :");
+System.out.println(a);
+
+}
+}
