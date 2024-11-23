@@ -1,0 +1,23 @@
+1. Write a program to find whether the given input number is Odd.
+
+
+CODE:
+  import java.util.*;
+public class Odd
+{
+    public static void main(String args[]){
+    int x;
+    {
+    Scanner A=new Scanner(System.in);
+    x=A.nextInt();
+    if(x%2==0)
+    {
+        System.out.println("1");
+    }
+    else
+    {
+        System.out.println("2");
+    }
+}
+}
+}
